@@ -25,10 +25,10 @@
          // triangle
          ctx.fillStyle = 'blue';
          ctx.beginPath();
-         ctx.moveTo(150, 50);
-         ctx.lineTo(50, 200);
-         ctx.lineTo(250, 200);
-         ctx.lineTo(150, 50);
+         ctx.moveTo(150, 75); // from 150, 50 -> 150, 75
+         ctx.lineTo(75, 200); // from 50, 200 -> 75, 200
+         ctx.lineTo(225, 200); // from 250, 200 -> 225, 200
+         //ctx.lineTo(150, 50); // this is unneeded after reading the canvas spec
          ctx.fill();
 
          // the text
